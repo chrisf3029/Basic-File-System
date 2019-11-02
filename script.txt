@@ -1,0 +1,59 @@
+mkdir testdir
+mkdir testdir
+create foo.txt
+create foo.txt
+ls
+append foo.txt 0-------9,
+append foo.txt 10-----19,
+append foo.txt 20-----29,
+append foo.txt 30-----39,
+append foo.txt 40-----49,
+append foo.txt 50-----59,
+append foo.txt 60-----69,
+append foo.txt 70-----79,
+append foo.txt 80-----89,
+append foo.txt 90-----99,
+append foo.txt 100---109,
+append foo.txt 110---119,
+append foo.txt 120---129,
+append foo.txt 130---139,
+append foo.txt 140---149,
+append foo.txt 150---159,
+append foo.txt 160---169,
+append foo.txt 170---179,
+append foo.txt 180---189,
+append foo.txt 190---199,
+append foo.txt 200---209,
+append foo.txt 210---219,
+append foo.txt 220---229,
+append foo.txt 230---239,
+append foo.txt 240---249,
+append foo.txt 250---259,
+append foo.txt 260---269,
+append foo.txt 270---279,
+append foo.txt 280---289,
+append foo.txt 290----299
+stat foo.txt
+cat foo.txt
+tail foo.txt 11
+tail foo.txt 201
+tail foo.txt 400
+cd testdir
+mkdir newdir
+create bar.txt
+ls
+home
+ls
+stat testdir
+rmdir testdir
+cd testdir
+rmdir newdir
+rm bar.txt
+ls
+home
+rmdir testdir
+rmdir testdir
+rm foo.txt
+rm foo.txt
+ls
+quit
